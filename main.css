@@ -1,0 +1,95 @@
+#typewritter {
+	margin: 50px 0 0 0;
+	text-align: left;
+	/* font-family: Arial; */
+	/* font-size: 25px; */
+    display: inline;
+    color: rgb(116, 0, 183);
+}
+
+#text {
+	display: inline-block;
+    font-weight: 600;
+	/* color: #2980b9; */
+	/* border-right: 3px solid #2980b9; */
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 30px;
+	background-color: rgb(74, 0, 128);
+	animation: blink .75s step-end infinite;
+}
+footer{
+    font-size: small;
+    margin-top: auto;
+}
+.span1{
+    display: block;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent;
+	}
+	50% { 
+		background-color: rgb(74, 0, 128); 
+	}
+}
+    /* end */
+
+    .logo{
+        position: absolute;
+    }
+
+    .section1{
+        /* display: flex; */
+        align-items:center;
+        justify-content: center;
+        font-size: large;
+        padding: 14% 7%;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .sec{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* padding: 10%;
+        width: 85%; */
+        /* margin: auto; */
+    }
+    .left{
+        /* width: 50%; */
+        padding: 3%;
+        align-self: center;
+        line-height: 12px;
+    }
+    .right{
+        /* width: 50%; */
+        padding: 3%;
+    }
+    hr{
+        width: 95%;
+        margin: 2% 5% 2% 5%;
+    }
+
+
+    @media (max-width: 1000px){
+        .section1{
+            padding: 20% 7%;
+        }
+    }
+    @media (max-width: 500px){
+        .section1{
+            padding: 40% 2%;
+        }
+    }
+    @media (max-width: 340px){
+        .section1{
+            padding: 50% 2%;
+        }
+    }

@@ -1,0 +1,24 @@
+    h2{
+      text-align: center;
+      padding: 0% 0% 1% 0%;
+    }
+    footer{
+        /* padding: 0% 2%; */
+        font-size: small;
+
+    }
+    .span1{
+        display: block;
+    }
+    img{
+        max-width: 700px;
+    }
+  /* line {
+    //position: relative;
+    z-index: -1;
+  }
+  
+  rect {
+    //position: relative;
+    z-index: 1;
+  } */
